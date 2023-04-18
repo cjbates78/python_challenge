@@ -68,5 +68,11 @@ output = (
 # Print the output (to terminal)
 print(output)
 
-file = open("pybank.txt", "w")
-file.close()
+#open and write to output file
+f = open("pybank.txt", "w")
+f.write(output)
+f.close()
+           
+           
+           
+           
