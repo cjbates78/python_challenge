@@ -78,4 +78,5 @@ output = (
 print(output)
 
 file = open("pypoll.txt", "w")
+file.write(output)
 file.close()
